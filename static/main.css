@@ -25,3 +25,17 @@ h2 {
     margin-top: 50px;
     font-weight: 400;
 }
+
+button {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(236, 120, 27);
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255);
+}
