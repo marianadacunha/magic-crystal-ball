@@ -6,5 +6,5 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    number = random.randint(0, 8)
+    number = random.randint(0, 12)
     return render_template("index.html", number=number)

@@ -1,31 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="stylesheet" href="../static/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <title>Magic 8-Ball</title>
 </head>
 
 <body>
-    <img class="animate__animated animate__pulse animate__infinite animate__slow" src="img/future.png" alt="Magic crystal ball">
-    <h1 class="animate__animated animate__fadeIn animate__slower"> Think of a yes/no question and your answer will appear shortly.</h1>
-    <h2 class="animate__animated animate__fadeIn animate__slower animate__delay-5s">{% if number == 0 %}
-        It is certain.
-    {% elif number == 1 %}
-        Very doubtful.
-    {% elif number == 2 %}
-        Yes.
-    {% elif number == 3 %}
-        Ask again later.
-    {% elif number == 4 %}
-        It is decidedly so.
-    {% elif number == 5 %}
-        My reply is no.
-    {% elif number == 6 %}
-        Concentrate and ask again.
-    {% else %}
-        Outlook not so good.
-    {% endif %}</h2>
+
+    <img class="animate__animated animate__pulse animate__infinite animate__slow" src="../static/img/future.png"
+        alt="Magic crystal ball">
+    <h1 class="animate__animated animate__fadeIn animate__slower"> Think of a yes/no question and your answer will
+        appear shortly.</h1>
+    <h2 class="animate__animated animate__fadeIn animate__slower animate__delay-5s">
+        {% if number == 0 %}
+            It is certain.
+        {% elif number == 1 %}
+            Very doubtful.
+        {% elif number == 2 %}
+            Yes.
+        {% elif number == 3 %}
+            Ask again later.
+        {% elif number == 4 %}
+            It is decidedly so.
+        {% elif number == 5 %}
+            My reply is no.
+        {% elif number == 6 %}
+            Concentrate and ask again.
+        {% elif number == 7 %}
+            Better not tell you now.
+        {% elif number == 8 %}
+            My sources say no.
+        {% elif number == 9 %}
+            Don’t count on it.
+        {% elif number == 10 %}
+            As I see it, yes.
+        {% elif number == 11 %}
+            Most likely.
+        {% else %}
+            Outlook not so good.
+        {% endif %}</h2>
+
 </body>
 
 </html>
