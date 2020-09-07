@@ -8,3 +8,6 @@ app = Flask(__name__)
 def index():
     number = random.randint(0, 12)
     return render_template("index.html", number=number)
+
+if __name__ == "__main__":
+    app.run()
