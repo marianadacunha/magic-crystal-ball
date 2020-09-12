@@ -3,3 +3,14 @@ A Magic Crystal Ball is a fortune-telling/advice-seeking tool that has made its 
 
 # Preview
 ![Screenshot](https://i.ibb.co/B6HZSZ5/Captura-de-tela-2020-09-11-18-10-21.png)
+
+# Setup
+To run this project, you will need to install Flask locally using the pip command.
+You can run this command from your command prompt window.
+```
+$ pip install flask
+```
+Then run the python script and go to the URL https://127.0.0.1:5000/ from a web browser.
+```
+$ python "application.py"
+```
